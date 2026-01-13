@@ -11,7 +11,6 @@ bandit3@bandit:~$ la
 
 #print the password
 bandit3@bandit:~$ cat inhere/...Hiding-From-You
-2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-bandit3@bandit:~$
+<snip>
 
 ```
