@@ -7,9 +7,8 @@ The password for the next level is stored somewhere on the server and has all of
     33 bytes in size
 
 ```shell
-bandit5@bandit:~$ find / -xdev -type f -user bandit7 -group bandit7 -size 33c  2>/dev/null
-/etc/bandit_pass/bandit7
-
+bandit5@bandit:~$ find / -xdev -type f -user bandit7 -group bandit6 -size 33c  2>/dev/null
+/var/lib/dpkg/info/bandit7.password
 ```
 
 **explanation:**
