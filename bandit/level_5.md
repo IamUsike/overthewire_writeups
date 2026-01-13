@@ -30,6 +30,6 @@ inhere/-file09: data
 #the description mentions that the password is stored in the only human
 #human-readable file.
 bandit4@bandit:~$ cat ./inhere/-file07
-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+<snip>
 
 ```
