@@ -1,21 +1,16 @@
-**Level Goal**
+**level goal**
+Level Goal
 
-The password for the next level is stored somewhere on the server and has all of the following properties:
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
-    owned by user bandit7
-    owned by group bandit6
-    33 bytes in size
+    human-readable
+    1033 bytes in size
+    not executable
 
 ```shell
-bandit5@bandit:~$ find / -xdev -type f -user bandit7 -group bandit7 -size 33c  2>/dev/null
-/etc/bandit_pass/bandit7
-
+bandit5@bandit:~$ find ./inhere/ -type f -size 1033c ! -executable  -exec file {} + | grep -i ascii
+./inhere/maybehere07/.file2: ASCII text, with very long lines (1000)
 ```
 
-**explanation:**
-
-- `find /` : Start the search from root dir
-- `-xdev`: donot cross filesystem boundaries
-- `type f`: look for files
-- Then the user the file belongs to, the group and also the size
-- `2>/dev/null`: redirect all errors to oblivion
+not in the mood to write command explanation look em up.
+ps: can ignore `exec` and `grep` in here, you'll still get the single file.
