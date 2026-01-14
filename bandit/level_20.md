@@ -15,5 +15,4 @@ bandit20
 #cat the pw
 bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
 <<REDACTED>>
-
 ```
