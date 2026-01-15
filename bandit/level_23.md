@@ -22,4 +22,4 @@ cat /etc/bandit_pass/$myname > /tmp/$mytarget
 ```
 
 - now just replace `myname` with `bandit23` and execute that command.
-- from there its self explanatory. Aint gonna spoon feed ya. hungry af i need someone to feed me )-:
+- from there its self explanatory. Aint gonna spoon feed ya. hungry af, i need someone to feed me )-:
