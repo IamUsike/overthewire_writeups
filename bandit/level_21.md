@@ -5,5 +5,6 @@
 ```shell
 echo "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 5000
 <<  REDACTED >>
-
 ```
+
+- upon executing the script the next password will be sent
