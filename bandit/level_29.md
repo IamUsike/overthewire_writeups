@@ -6,10 +6,11 @@
   the password is shown as a bunch of 'x'
 
 - since this is version contolled and tracked. do `git log` to see the commit history.
-![[Pasted image 20260116125631.png]]
+  ![git_log](../img/git_log_29.png)
 
 looking at the commit history, we can see that the comment on the latest commit says `fix info leak`. So, presumably the previous commit should contain the creds. (you can just checkout all the commits smh)
 
 - `git checkout 8b7c651b37ce7a94633b7b7b7c980ded19a16e4f`
 
-Inspect the readme file now to get the password for the next level. 
+Inspect the readme file now to get the password for the next level.
+
