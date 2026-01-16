@@ -43,7 +43,7 @@ tldr: Files belonging to `bandit23` are executed and then deleted.
   <br>
   <br>
 
-- I can think of things here.
+- I can think of three things here.
   - run a reverse shell script
   - copy `/bin/bash` to `/tmp/bash` and set the suid bit
   - copy bandit24 password from `/etc/bandit_pass/bandit24`
